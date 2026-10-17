@@ -1,7 +1,7 @@
 /* Detour FW prototype service worker: offline app shell only. Same-origin GETs only; never touches POSTs or other sites.
    PRECACHE is filled in by scripts/postbuild.mjs with the hashed build files. */
-const VERSION = "mvc90swb";
-const PRECACHE = ["./", "./index.html", "./manifest.webmanifest" , "./assets/MapScreen-DBE96hFo.css", "./assets/MapScreen-DFA-XPoM.js", "./assets/index-Bu3bHyWB.css", "./assets/index-MxctLP5e.js", "./assets/maplibre-gl-worker-DxGNRm0a.mjs", "./icons/apple-touch-icon.png", "./icons/favicon-32.png", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/logo-256.png", "./icons/maskable-192.png", "./icons/maskable-512.png"];
+const VERSION = "mvc9ck33";
+const PRECACHE = ["./", "./index.html", "./manifest.webmanifest" , "./assets/MapScreen-DBE96hFo.css", "./assets/MapScreen-DBa1SaMu.js", "./assets/index-CVgHfmS2.css", "./assets/index-CzeZuPGv.js", "./assets/maplibre-gl-worker-DxGNRm0a.mjs", "./icons/apple-touch-icon.png", "./icons/favicon-32.png", "./icons/icon-192.png", "./icons/icon-512.png", "./icons/logo-256.png", "./icons/maskable-192.png", "./icons/maskable-512.png"];
 const CACHE = `dfw-shell-${VERSION}`;
 
 self.addEventListener("install", (e) => {
